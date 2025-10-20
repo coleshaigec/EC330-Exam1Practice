@@ -4,6 +4,13 @@
 
 using namespace std;
 
+void findTail(LinkedList* A){
+  if ()
+  Node* curr = A->head;
+  
+  while (curr->)
+}
+
 // Implement as state machine
 void bubbleSort(DoublyLinkedList* A){
   // Check for degenerate list and return before algorithm run if detected

@@ -1,0 +1,23 @@
+#include <iostream>
+#include <vector>
+#include <cmath>
+
+using namespace std;
+
+// Swaps two elements at specified indices in an array
+void swap(vector<int>& A, int a, int b) {
+  int temp = A[b];
+  A[b] = A[a];
+  A[a] = temp;
+}
+
+// Used to maintain adherence to the maxheap property
+void heapify(vector<int>& A){
+  // Check if any node has an illegal child
+  // If they do, swap them and bubble up/down
+}
+
+void heapSort(vector<int>& A){
+  
+
+}
